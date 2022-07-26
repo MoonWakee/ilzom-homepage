@@ -4,8 +4,7 @@ module.exports = {
       {
         source: '/portfolio',
         destination: 'https://portfolio.raidguild.org',
-        permanent: true,
-        compress: true
+        permanent: true      
       }
     ];
   }
