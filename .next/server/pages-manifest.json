@@ -1,0 +1,20 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/api/consult/primary": "pages/api/consult/primary.js",
+  "/api/fetch/client": "pages/api/fetch/client.js",
+  "/_error": "pages/_error.js",
+  "/api/consult/secondary": "pages/api/consult/secondary.js",
+  "/api/hire/notify": "pages/api/hire/notify.js",
+  "/api/hire/primary": "pages/api/hire/primary.js",
+  "/api/consult/bid": "pages/api/consult/bid.js",
+  "/api/join/secondary": "pages/api/join/secondary.js",
+  "/api/hire/secondary": "pages/api/hire/secondary.js",
+  "/api/join/primary": "pages/api/join/primary.js",
+  "/hire": "pages/hire.html",
+  "/dashboard": "pages/dashboard.html",
+  "/api/join/notify": "pages/api/join/notify.js",
+  "/": "pages/index.html",
+  "/join": "pages/join.html"
+}
