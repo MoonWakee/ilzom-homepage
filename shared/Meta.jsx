@@ -4,35 +4,32 @@ import Script from 'next/script';
 export const Meta = () => {
   return (
     <Head>
-      <title>iLZOM DAO Edit</title>
+      <title>iLZOM DAO</title>
       <meta
         name='description'
-        content='A Decentralized Collective of Mercenaries Ready to Slay Your Web3
-            Product Demons'
+        content='iLZOM DAO는 Web3 기반인 한국 유학생들의 프로젝트 참여와 네트워킹을 위한 장입니다. 창의적이고 선두적인 디지털 단체입니다.'
       />
 
-      <meta property='og:title' content='RaidGuild' />
+      <meta property='og:title' content='ilzom' />
       <meta
         property='og:description'
-        content='A Decentralized Collective of Mercenaries Ready to Slay Your Web3
-        Product Demons'
+        content='iLZOM DAO는 Web3 기반인 한국 유학생들의 프로젝트 참여와 네트워킹을 위한 장입니다. 창의적이고 선두적인 디지털 단체입니다.'
       />
       <meta
         property='og:image'
-        content='https://res.cloudinary.com/saimano/image/upload/v1625726563/RaidGuild/illustrations/raid__cloud__castle_j8pe6f.png'
+        content='public/assets/illustrations/ilzom_orange.png'
       />
-      <meta property='og:url' content='https://raidguild.org' />
+      <meta property='og:url' content='https://ilzom-homepage.vercel.app/' />
 
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:title' content='RaidGuild' />
+      <meta name='twitter:title' content='ilzom' />
       <meta
         name='twitter:description'
-        content='A Decentralized Collective of Mercenaries Ready to Slay Your Web3
-          Product Demons'
+        content='iLZOM DAO는 Web3 기반인 한국 유학생들의 프로젝트 참여와 네트워킹을 위한 장입니다. 창의적이고 선두적인 디지털 단체입니다.'
       />
       <meta
         name='twitter:image'
-        content='https://res.cloudinary.com/saimano/image/upload/v1625726563/RaidGuild/illustrations/raid__cloud__castle_j8pe6f.png'
+        content='public/assets/illustrations/ilzom_orange.png'
       />
       <meta property='og:type' content='website' />
 
