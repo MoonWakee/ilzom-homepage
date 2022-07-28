@@ -17,7 +17,7 @@ export const Meta = () => {
       />
       <meta
         property='og:image'
-        content='public/assets/illustrations/ilzom_orange.png'
+        content='../assets/illustrations/ilzom_orange.png'
       />
       <meta property='og:url' content='https://ilzom-homepage.vercel.app/' />
 
@@ -29,7 +29,7 @@ export const Meta = () => {
       />
       <meta
         name='twitter:image'
-        content='public/assets/illustrations/ilzom_orange.png'
+        content='../assets/illustrations/ilzom_orange.png'
       />
       <meta property='og:type' content='website' />
 
