@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
+import { ilzom_orange } from '../public/assets/illustrations/ilzom_orange';
+
 
 export const Meta = () => {
   return (
@@ -17,7 +19,7 @@ export const Meta = () => {
       />
       <meta
         property='og:image'
-        content='../assets/illustrations/ilzom_orange.png'
+        content= {`${ilzom_orange}`}
       />
       <meta property='og:url' content='https://ilzom-homepage.vercel.app/' />
 
@@ -29,7 +31,7 @@ export const Meta = () => {
       />
       <meta
         name='twitter:image'
-        content='../assets/illustrations/ilzom_orange.png'
+        content= {`${ilzom_orange}`}
       />
       <meta property='og:type' content='website' />
 
