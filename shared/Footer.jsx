@@ -16,7 +16,7 @@ export const Footer = () => {
       px={{ base: '2rem', lg: '5rem' }}
       py='2rem'
       w='100%'
-      bg='black'
+      bg='background'
     >
       <Box width={{ base: '150px', lg: '168px' }} mr='auto' mt='2rem'
               onClick={() => (window.location.href = '/')}

@@ -13,6 +13,9 @@ import { Footer } from '../shared/Footer';
 import { FAQ } from '../shared/Faq';
 
 import { Intro } from '../views/hireus/Intro';
+import { Join_StepTwo } from '../views/joinus/StepTwo';
+
+import {Sponsor_Ship} from '../views/hireus/Sponsorship_form';
 import { StepOne } from '../views/hireus/StepOne';
 import { StepTwo } from '../views/hireus/StepTwo';
 import { StepThree } from '../views/hireus/StepThree';
@@ -53,43 +56,7 @@ const Hire = () => {
         <Header windowWidth={windowWidth} navLinks={false} />
       </Box>
 
-      {context.stage > 1 && context.stage < 6 && (
-        <Flex
-          direction='row'
-          alignItems='center'
-          mt='2rem'
-          mr='auto'
-          px={{ base: '2rem', lg: '5rem' }}
-        >
-          <CircularProgress
-            value={context.stage - 1}
-            thickness='4px'
-            max={4}
-            color='red'
-          >
-            <CircularProgressLabel
-              color='red'
-              fontFamily='jetbrains'
-              fontSize={{ base: '20px', lg: '26px' }}
-            >
-              {context.stage - 1}
-            </CircularProgressLabel>
-          </CircularProgress>{' '}
-          <StyledSecondaryHeading
-            fontSize={{ base: '20px', lg: '26px' }}
-            ml='1rem'
-          >
-            {stageHeadings[context.stage - 1]}
-          </StyledSecondaryHeading>
-        </Flex>
-      )}
-
-      {context.stage === 1 && <Intro />}
-      {context.stage === 2 && <StepOne />}
-      {context.stage === 3 && <StepTwo />}
-      {context.stage === 4 && <StepThree />}
-      {context.stage === 5 && <StepFour windowWidth={windowWidth} />}
-      {context.stage === 6 && <Confirmation />}
+      {context.stage === 1 && <Sponsor_Ship />}
 
       <FAQ />
       <Footer />

@@ -65,6 +65,13 @@ export const StyledBodyText = styled(Text)`
   /* text-align: justify; */
 `;
 
+export const StyledCheckText = styled(Text)`
+  max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : '650px')};
+  font-family: ${theme.fonts.texturina};
+  line-height: 2.5;
+  color: white;
+`
+
 export const StyledCardText = styled(Text)`
   max-width: 720px;
   font-family: ${theme.fonts.texturina};

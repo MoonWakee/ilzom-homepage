@@ -7,10 +7,11 @@ import { Header } from '../../shared/Header';
 import {
   StyledPrimaryButton,
   StyledSecondaryButton,
-  StyledPrimaryHeading
+  StyledPrimaryHeading,
+  StyledBodyText
 } from '../../themes/styled';
 
-import raidBanner from '../../public/assets/illustrations/ilzom_orange.png';
+import ilzom_orange from '../../public/assets/illustrations/ilzom_orange.png';
 
 export const SectionOne = ({ windowWidth }) => {
   return (
@@ -35,10 +36,16 @@ export const SectionOne = ({ windowWidth }) => {
           alignItems='start'
           maxW={{ lg: '50%' }}
         >
-          <StyledPrimaryHeading maxW='720px' fontSize={{ lg: '24px' }}>
-          iLZOM DAO는 Web3 기반인 한국 유학생들의 프로젝트 참여와 네트워킹을 위한 장입니다. 
-          창의적이고 선두적인 디지털 단체입니다. 
+          <StyledPrimaryHeading fontSize={{ base: '1.5rem', lg: '36px' }}>
+          Welcome to a <nobr>decentralized world!</nobr>
           </StyledPrimaryHeading>
+          <br></br>
+          <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
+            iLZOM DAO is an organization that everyone can put their ideas 
+            into practices. We cooperate, support, build relationships with
+            one and another.
+          </StyledBodyText>
+
                    <Flex
             w='100%'
             mt={{ base: '2rem' }}
@@ -65,7 +72,7 @@ export const SectionOne = ({ windowWidth }) => {
           </Flex>
         </Flex>
         <Box width={{ md: '400px', lg: '450px' }}>
-          <Image src={raidBanner} placeholder='blur' alt='raid-banner' />
+          <Image src={ilzom_orange} placeholder='blur' alt='raid-banner' />
         </Box>
       </Flex>
     </SimpleGrid>

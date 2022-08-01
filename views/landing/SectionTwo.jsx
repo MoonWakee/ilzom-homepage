@@ -20,7 +20,7 @@ export const SectionTwo = () => {
       bg='background_brown'
       placeItems='center'
     >
-      <Box width={{ base: '500px', lg: '500px' }}>
+      <Box width={{ base: '400px', lg: '450px' }}>
         <Image src={outsider} alt='raid fantasy' placeholder='blur' />
       </Box>
       <VStack spacing={5} justifyContent='center' ml={{ md: '1rem' }}>
@@ -29,11 +29,11 @@ export const SectionTwo = () => {
         </StyledPrimaryHeading>
         <div>
           <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
-          iLZOM DAO는 미국 내 거주하는 유학생들이 자유롭게 자신들의 프로젝트 아이디어를 
-          공유하고 디벨롭할 수 있는 그룹입니다. 자신의 포트폴리오를 빌딩 시킬 수 있을 뿐만 
-          아니라 미국 내 다양한 한인 유학생들과 네트워킹을 할 수 있는 기회를 제공합니다. 또한 여러 
-          회사들로부터 후원을 받아 프로젝트를 실행, 실제 회사 프로젝트에 참여, 혹은 회사와 파트너쉽을 
-          맺어 함께 협업하는 등의 기회도 있습니다.
+          iLZOM DAO is an organization of Korean international students 
+          who share their project ideas and develop them into astonishing outputs. 
+          Not only can students work on building their portfolios but also can network
+          with other peers across the U.S. Students are also given opportunities to be
+          recruited by sponsor companies and chances to stand out to other recruiters.
           </StyledBodyText>
           <br></br>
         </div>

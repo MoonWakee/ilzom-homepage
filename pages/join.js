@@ -13,7 +13,7 @@ import { Footer } from '../shared/Footer';
 import { FAQ } from '../shared/Faq';
 
 import { Intro } from '../views/joinus/Intro';
-import { StepOne } from '../views/joinus/StepOne';
+import {StepOne} from '../views/joinus/StepOne';
 import { StepTwo } from '../views/joinus/StepTwo';
 import { StepThree } from '../views/joinus/StepThree';
 import { StepFour } from '../views/joinus/StepFour';
