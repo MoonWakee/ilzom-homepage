@@ -6,6 +6,8 @@ import { theme } from '../themes/theme';
 import { StyledFooterHeaderText } from '../themes/styled';
 
 import ilzom from '../public/assets/logos/3_logo.png';
+import ilzom_white from '../public/assets/illustrations/ilzom_white.png';
+
 
 export const Footer = () => {
   return (
@@ -44,6 +46,12 @@ export const Footer = () => {
           <Link href='/#culture'>Join Us</Link>
           <Link href='/#manifesto'>
             Our Handbook
+          </Link>
+          <Link href='/#Referral'>
+            Referral & Reward Program
+          </Link>
+          <Link href='/#FAQ'>
+            FAQ
           </Link>
         </VStack>
         <VStack alignItems='flex-start'>
@@ -91,6 +99,20 @@ export const Footer = () => {
                 rel='noopener noreferrer'
               >
                 Discord
+              </Link>
+            </HStack>
+          </Link>
+          <Link>
+            <HStack>
+            <span style={{ width: '20px', marginRight: '5px' }}>
+                <Image src={ilzom_white} placeholder='blur' alt='raid-banner'></Image>
+                </span>
+                <Link
+                href='https://discord.gg/j9Zm3ptT'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Forum
               </Link>
             </HStack>
           </Link>

@@ -27,7 +27,7 @@ export const Intro = () => {
         </StyledPrimaryHeading>
 
         <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
-          일 좀 다오 소개글 컴온~
+          The faster you join, the better your opportunities and relationships 
         </StyledBodyText>
         <br />
 

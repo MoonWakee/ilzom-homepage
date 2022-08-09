@@ -1,3 +1,11 @@
+export const cards_dummy = [
+  {
+    name: 'Outside lands 2022',
+    img: 'https://www.figma.com/file/m5WXWXLu16xx5FLtnw9tPY/iLZOM-DAO-WEB-PAGE-hi-fi?node-id=121%3A183',
+    text: 'Lets gittttitttt'
+  }
+]
+
 export const services = [
   {
     name: 'Consultations',

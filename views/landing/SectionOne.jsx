@@ -2,6 +2,7 @@ import { Flex, SimpleGrid, Box } from '@chakra-ui/react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 import { Header } from '../../shared/Header';
 
 import {

@@ -18,7 +18,6 @@ import { StepTwo } from '../views/joinus/StepTwo';
 import { StepThree } from '../views/joinus/StepThree';
 import { StepFour } from '../views/joinus/StepFour';
 import { StepFive } from '../views/joinus/StepFive';
-import { StepSix } from '../views/joinus/StepSix';
 import { Confirmation } from '../views/joinus/Confirmation';
 
 import { StyledSecondaryHeading } from '../themes/styled';
@@ -28,8 +27,7 @@ const stageHeadings = {
   2: 'Your Social Presence',
   3: 'Your SkillSet',
   4: 'Tell Us More',
-  5: 'Your Crypto Journey',
-  6: 'Guild Readiness'
+  5: 'Here'
 };
 
 const Join = () => {
@@ -57,7 +55,7 @@ const Join = () => {
         <Header windowWidth={windowWidth} />
       </Box>
 
-      {context.stage > 1 && context.stage < 8 && (
+      {context.stage > 1 && context.stage < 7 && (
         <Flex
           direction='row'
           alignItems='center'
@@ -93,9 +91,8 @@ const Join = () => {
       {context.stage === 3 && <StepTwo />}
       {context.stage === 4 && <StepThree />}
       {context.stage === 5 && <StepFour />}
-      {context.stage === 6 && <StepFive windowWidth={windowWidth} />}
-      {context.stage === 7 && <StepSix />}
-      {context.stage === 8 && <Confirmation />}
+      {context.stage === 6 && <StepFive />}
+      {context.stage === 7 && <Confirmation />}
 
       <FAQ />
       <Footer />

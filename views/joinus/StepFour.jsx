@@ -5,7 +5,7 @@ import { AppContext } from '../../context/AppContext';
 
 import StageButtonGroup from '../../shared/StageButtonGroup';
 
-import { StyledInput} from '../../themes/styled';
+import { StyledInput, StyledTextArea } from '../../themes/styled';
 
 export const StepFour = () => {
   const context = useContext(AppContext);
@@ -98,6 +98,29 @@ export const StepFour = () => {
             onChange={context.inputChangeHandler}
             name='j_interest'
             value={context.j_interest}
+          />
+        </FormControl>
+      </Stack>
+      <Stack
+        direction={{ base: 'column', lg: 'row' }}
+        mb={{ base: 10, lg: 0 }}
+        spacing={{ base: 0, lg: 5 }}
+      >
+           <FormControl
+          isRequired
+          isInvalid={context.j_thrills === '' && buttonClick ? true : false}
+          fontFamily='spaceMono'
+          color='white'
+          mb={10}
+        >
+          <FormLabel>
+            Is there anything that you want to share with iLZOM DAO?{' '}
+          </FormLabel>
+          <StyledTextArea
+            placeholder='Feel free to share anything!'
+            onChange={context.inputChangeHandler}
+            name='j_goals'
+            value={context.j_goals}
           />
         </FormControl>
       </Stack>

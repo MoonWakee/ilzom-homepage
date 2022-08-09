@@ -34,7 +34,7 @@ export const StepTwo = () => {
         >
           <FormLabel>What is your Discord handle?</FormLabel>
           <StyledInput
-            placeholder="Include the unique identifier after the #, no '@'"
+            placeholder="Discord handle (User ID with numbers)"
             onChange={context.inputChangeHandler}
             name='j_discordHandle'
             value={context.j_discordHandle}
@@ -43,7 +43,7 @@ export const StepTwo = () => {
         <FormControl fontFamily='spaceMono' color='white'>
           <FormLabel>What is your Github ID?</FormLabel>
           <StyledInput
-            placeholder="no '@"
+            placeholder="Github ID"
             name='j_githubHandle'
             onChange={context.inputChangeHandler}
             value={context.j_githubHandle}
@@ -59,7 +59,7 @@ export const StepTwo = () => {
         <FormControl fontFamily='spaceMono' color='white' mb={10}>
           <FormLabel>Enter your Telegram ID</FormLabel>
           <StyledInput
-            placeholder="no '@'"
+            placeholder="Telegram ID"
             name='j_telegramHandle'
             onChange={context.inputChangeHandler}
             value={context.j_telegramHandle}
@@ -68,7 +68,7 @@ export const StepTwo = () => {
         <FormControl fontFamily='spaceMono' color='white'>
           <FormLabel>What is your Twitter account?</FormLabel>
           <StyledInput
-            placeholder="no '@'"
+            placeholder="Twitter ID"
             name='j_twitterHandle'
             onChange={context.inputChangeHandler}
             value={context.j_twitterHandle}

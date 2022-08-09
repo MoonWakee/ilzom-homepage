@@ -66,7 +66,7 @@ const getAccountString = (account) => {
 
 const navItems = [
   { name: 'About Us', href: '/#about_us' },
-  { name: 'Events', href: '/#events' },
+  { name: 'Events', href: '/event' },
   { name: 'Sponsor Us', href: '/#sponsorship' },
   { name: 'Join', href: '/#culture' },
   // { name: 'Sponsorship', href: '/#sponsorship' }
@@ -151,7 +151,7 @@ export const Header = ({ windowWidth, navLinks = true }) => {
               About Us
             </Text>
           </Link>
-          <Link href='/#events' passHref>
+          <Link href='/event' passHref>
             <Text cursor='pointer' _hover={{ textDecoration: 'underline' }}>
               Events
             </Text>

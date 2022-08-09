@@ -6,6 +6,7 @@ import nProgress from 'nprogress';
 
 import '../globals.css';
 import '../nprogress.css';
+import '../carousel.css';
 
 Router.events.on('routeChangeStart', () => nProgress.start());
 Router.events.on('routeChangeComplete', () => nProgress.done());

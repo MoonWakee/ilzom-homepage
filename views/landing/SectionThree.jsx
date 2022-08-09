@@ -1,7 +1,7 @@
 import { Flex, Box, SimpleGrid, VStack } from '@chakra-ui/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ilzom_orange from '../../public/assets/illustrations/ilzom_orange.png';
+import ilzom_sponsor from '../../public/assets/illustrations/ilzom_sponsor.png';
 
 import {
   StyledPrimaryButton,
@@ -25,6 +25,7 @@ export const SectionThree = () => {
       bg='background_purple'
       placeItems='center'
     >
+      <Flex>
        <VStack spacing={5} justifyContent='center'>
         <StyledPrimaryHeading fontSize={{ base: '1.5rem', lg: '36px' }}>
           Sponsorship
@@ -41,9 +42,12 @@ export const SectionThree = () => {
           </StyledPrimaryButton>
         </Link>
         </VStack>
-        <Box width={{ base: '400px', lg: '450px' }}>
-          <Image src={ilzom_orange} alt='raid fantasy' placeholder='blur' />
+        </Flex>
+        <Flex style={{bg: 'white'}}>
+        <Box width={{ base: '500px', lg: '500px' }}>
+          <Image src={ilzom_sponsor} alt='raid fantasy' placeholder='blur' />
         </Box>
+        </Flex>
     </SimpleGrid>
   );
 };
