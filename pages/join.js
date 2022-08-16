@@ -91,7 +91,7 @@ const Join = () => {
       {context.stage === 3 && <StepTwo />}
       {context.stage === 4 && <StepThree />}
       {context.stage === 5 && <StepFour />}
-      {context.stage === 6 && <StepFive />}
+      {/* {context.stage === 6 && <StepFive />} */}
       {context.stage === 7 && <Confirmation />}
 
       <FAQ />
