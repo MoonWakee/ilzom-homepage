@@ -7,6 +7,7 @@ import { SectionTwo } from '../views/landing/SectionTwo';
 import { SectionThree } from '../views/landing/SectionThree';
 import { SectionFour } from '../views/landing/SectionFour';
 import { Footer } from '../shared/Footer';
+import { Header } from '../shared/Header';
 
 export default function Home() {
   const [windowWidth, setWindowWidth] = useState('');
@@ -22,7 +23,7 @@ export default function Home() {
   return (
     <Flex height='100%' width='100%' direction='column'>
       <Meta />
-
+      <Header windowWidth={windowWidth}/>
       <SectionOne windowWidth={windowWidth} />
       <SectionTwo />
       <SectionThree />

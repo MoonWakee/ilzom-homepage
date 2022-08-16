@@ -80,6 +80,11 @@ export const Header = ({ windowWidth, navLinks = true }) => {
   return (
     <Flex
       w='100%'
+      padding='20px'
+      backgroundColor='header_color'>
+    <Flex
+      w='100%'
+      backgroundColor='header_color'
       h={{ base: '4rem' }}
       color='white'
       fontFamily='spaceMono'
@@ -144,7 +149,8 @@ export const Header = ({ windowWidth, navLinks = true }) => {
           direction='row'
           justifyContent='space-around'
           fontSize='1.3rem'
-          color='basecolor'
+          backgroundColor='header_color'
+          color='white'
         >
           <Link href='/#about_us' passHref>
             <Text cursor='pointer' _hover={{ textDecoration: 'underline' }}>
@@ -242,6 +248,7 @@ export const Header = ({ windowWidth, navLinks = true }) => {
           </Flex>
         </>
       )}
+    </Flex>
     </Flex>
   );
 };

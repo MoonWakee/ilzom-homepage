@@ -21,11 +21,9 @@ export const SectionOne = ({ windowWidth }) => {
       placeItems='center'
       border='2px solid'
       borderColor='basecolor'
-      py='2rem'
-      px={{ base: '1rem', lg: '4rem' }}
-      mx='1rem'
+      height='700px'
+      backgroundColor='background'
     >
-      <Header windowWidth={windowWidth} />
       <Flex
         direction={{ base: 'column-reverse', lg: 'row' }}
         alignItems='center'
@@ -55,6 +53,7 @@ export const SectionOne = ({ windowWidth }) => {
           >
             <Link href='/hire' passHref>
               <StyledPrimaryButton
+                style={{background:'#EEB179', color:'white'}}
                 minW={{ base: 'auto' }}
                 fontSize={{ base: '16px', lg: '18px' }}
                 mr='2rem'
@@ -64,6 +63,7 @@ export const SectionOne = ({ windowWidth }) => {
             </Link>
             <Link href='/join' passHref>
               <StyledSecondaryButton
+                style={{background:'#EEB179'}}
                 minW={{ base: 'auto' }}
                 fontSize={{ base: '16px', lg: '18px' }}
               >

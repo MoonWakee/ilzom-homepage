@@ -99,9 +99,9 @@ export const StyledPrimaryButton = styled(Button)`
   height: 50px;
   font-family: ${theme.fonts.spaceMono};
   text-transform: uppercase;
-  color: white;
+  color: black;
   border-radius: 2px;
-  background: ${theme.colors.basecolor};
+  background: #DFD6D6;
   padding-left: 24px;
   padding-right: 24px;
   &:hover {

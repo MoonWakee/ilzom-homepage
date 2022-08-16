@@ -19,10 +19,9 @@ export const SectionThree = () => {
       id='sponsorship'
       columns={{ base: 1, md: 1, lg: 2 }}
       px={{ base: '2rem', lg: '8rem' }}
-      my='4rem'
       mb='0'
-      minHeight={'95vh'}
-      bg='background_purple'
+      minHeight='95vh'
+      bg='#37384D'
       placeItems='center'
     >
       <Flex>
@@ -44,7 +43,7 @@ export const SectionThree = () => {
         </VStack>
         </Flex>
         <Flex style={{bg: 'white'}}>
-        <Box width={{ base: '500px', lg: '500px' }}>
+        <Box width={{ base: '600px', lg: '600px' }}>
           <Image src={ilzom_sponsor} alt='raid fantasy' placeholder='blur' />
         </Box>
         </Flex>

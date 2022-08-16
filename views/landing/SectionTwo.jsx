@@ -15,7 +15,7 @@ export const SectionTwo = () => {
       id='about_us'
       columns={{ base: 1, md: 1, lg: 2 }}
       px={{ base: '2rem', lg: '8rem' }}
-      my='4rem'
+      minHeight='95vh'
       mb='0'
       bg='background_brown'
       placeItems='center'
@@ -24,11 +24,11 @@ export const SectionTwo = () => {
         <Image src={outsider} alt='raid fantasy' placeholder='blur' />
       </Box>
       <VStack spacing={5} justifyContent='center' ml={{ md: '1rem' }}>
-        <StyledPrimaryHeading fontSize={{ base: '1.5rem', lg: '36px' }}>
+        <StyledPrimaryHeading style={{color: 'black'}} fontSize={{ base: '1.5rem', lg: '36px' }}>
           About Us
         </StyledPrimaryHeading>
         <div>
-          <StyledBodyText fontSize={{ base: '1rem', lg: '18px' }}>
+          <StyledBodyText style={{color: 'black'}} fontSize={{ base: '1rem', lg: '18px' }}>
           iLZOM DAO is an organization of Korean international students 
           who share their project ideas and develop them into astonishing outputs. 
           Not only can students work on building their portfolios but also can network
@@ -39,6 +39,7 @@ export const SectionTwo = () => {
         </div>
         <br />
         <StyledPrimaryButton
+          style={{background:'#DFD6D6', color:'black'}}
           fontSize={{ base: '16px', lg: '18px' }}
           onClick={() =>
             window.open('https://moonwakee.github.io/ilzom-DAO/', '_blank')

@@ -19,22 +19,21 @@ export const SectionFour = () => {
       direction='column'
       alignItems='center'
       justifyContent='center'
-      bg='basedarkest'
-      px={{ base: '2rem', lg: '8rem' }}
-      py='6rem'
+      bg='#CBA6B1'
     >
       <VStack spacing={5} justifyContent='center'>
         <StyledPrimaryHeading
+          style={{color:'black'}}
           fontSize={{ base: '1.5rem', lg: '36px' }}
           mb='1rem'
         >
-          Become a <div style={{color: 'black', display: 'inline'}}>Contributor</div>
+          Become a <div style={{color: '#F9E9E9', display: 'inline'}}>Contributor</div>
         </StyledPrimaryHeading>
-        <StyledBodyText fontSize={{ base: '1rem', lg: '20px' }}>
+        <StyledBodyText style={{color:'black'}} fontSize={{ base: '1rem', lg: '20px' }}>
         Through executing diverse projects, we become founders,<br></br>
         designers, developers, mangers, and ---.
         </StyledBodyText>
-        <StyledCheckText fontSize={{ base: '1rem', lg: '20px' }}>
+        <StyledCheckText style={{color:'black'}} fontSize={{ base: '1rem', lg: '20px' }}>
         ✔️ Apply and be part of our community<br/> 
         ✔️ Ideate and participate in upcoming projects<br/>
         ✔️ Engage in diverse offline/online events<br/>

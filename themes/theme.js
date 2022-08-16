@@ -9,9 +9,10 @@ const breakpoints = createBreakpoints({
 
 export const theme = extendTheme({
   colors: {
-    background_brown: '#A0522D',
+    header_color: '#D2727E',
+    background_brown: '#CBABA6',
     background_purple: '#9370DB',
-    background: '#1d1b26',
+    background: '#37384D',
     basecolor: '#ff874d',
     basedarker: '#ff5e00',
     basedarkest: '#ff5100df',

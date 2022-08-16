@@ -7,9 +7,9 @@ export const Layout = ({ children }) => {
     <ChakraProvider theme={theme}>
       <AppContextProvider>
         <Flex
-          background={`${theme.colors.background}`}
+          background={`${theme.colors.header_color}`}
         >
-          <Flex maxW='100rem' py='1rem' mx='auto' overflowX='hidden'>
+          <Flex maxW='100rem' py='1rem' overflowX='hidden'>
             {children}
           </Flex>
         </Flex>

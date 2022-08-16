@@ -3,7 +3,9 @@ import { useKeenSlider } from "keen-slider/react"
 import { Flex, Link as ChakraLink, Box } from '@chakra-ui/react';
 import "keen-slider/keen-slider.min.css"
 import Image from 'next/image';
-import ilzom_sponsor from '../../public/assets/illustrations/ilzom_sponsor.png';
+import event_1 from '../../public/assets/illustrations/event_1.png';
+import heart from '../../public/assets/illustrations/heart_icon.png';
+import share from '../../public/assets/illustrations/share_icon.png';
 
 import {
   StyledPrimaryButton,
@@ -40,7 +42,7 @@ export const Intro = () => {
         <div className="navigation-wrapper">
           <div ref={sliderRef} className="keen-slider" style={{width: '500px', height: '500px'}}>
             <div className="keen-slider__slide number-slide1">
-              <Image src={ilzom_sponsor} layout="fill"></Image>
+              <Image src={event_1} layout="fill"></Image>
             </div>
             <div className="keen-slider__slide number-slide2">2</div>
             <div className="keen-slider__slide number-slide3">3</div>
@@ -90,10 +92,11 @@ export const Intro = () => {
           </div>
         )}
       </Box>
+            <Box>
+
             <Box
               display='flex'
               width='500px'
-              height='500px'
               >
               <Box
                 padding='50px'
@@ -107,7 +110,8 @@ export const Intro = () => {
                   padding='5'
                   height='130'
                   backgroundColor='gray.500'
-                  color='white'>
+                  color='#A52A2A'
+                  fontWeight='bold'>
                   August<br/> 9th
                 </Box>
                 <Box
@@ -116,7 +120,7 @@ export const Intro = () => {
                     color='white'
                     fontSize='25'
                     ml='10'
-                    padding='3'
+                    padding='2'
                     >
                       <nobr>Outside Lands 2022</nobr>
                   </Box>
@@ -136,14 +140,80 @@ export const Intro = () => {
                     Sun, 6:00 PM 
                   </Box>
                 </Box>
-              </Box>
-              
-              <Box
-                color='white'>
-                  Music Festival
-              </Box>
+              </Box>  
             </Box>
+            <Box
+                color='white'
+                padding='50px'
+                fontSize='20'
+                ml='5'
+                height='200'>
+                    Music Festival
+                </Box>
+                <Box 
+                  as='button' 
+                  borderRadius='md' 
+                  borderColor='yellow'
+                  color='white' 
+                  border='1.5px solid #f0e68c'
+                  ml='65px'
+                  fontSize='20'
+                  width='300px'
+                  height='50px'>
+                    1,234 People are going
+                </Box>    
+                <Box
+                  display='flex'>
+                  <Box 
+                    as='button' 
+                    borderRadius='md' 
+                    borderColor='yellow'
+                    color='white' 
+                    border='1.5px solid #f0e68c'
+                    mt='30px'
+                    ml='65px'
+                    fontSize='20'
+                    width='300px'
+                    height='50px'
+                    alignItems='center'
+                    justifyContent='center'
+                    >
+                      Yes! I want to join!
+                  </Box>   
+                  <Box
+                      as='button'
+                      border='1.5px solid #f0e68c'
+                      backgroundColor='white'
+                      mt='30px'
+                      ml='30px'
+                      width='45px'
+                      height='45px'
+                    >
+                    <Image 
+                      src={heart}
+                      width='33px'
+                      height='36px'
+                      objectFit='contain'
+                      />
+                    </Box>
+                  <Box
+                    as='button'
+                    border='1.5px solid #f0e68c'
+                    backgroundColor='white'
+                    mt='30px'
+                    ml='20px'
+                    width='45px'
+                    height='45px'
+                  >
+                  <Image src={share}></Image> 
+                  </Box>                    
+                </Box>
       </Box>
+      <Box>
+
+      </Box>
+      </Box>
+
     </>
   )
 }
